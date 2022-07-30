@@ -638,11 +638,11 @@
   </script>
    <script src="js/app.js"></script>
    <script type="module">
-    import PhotoSwipeLightbox from '/js/photoswipe-lightbox.esm.min.js';
+    import PhotoSwipeLightbox from 'js/photoswipe-lightbox.esm.min.js';
     const lightbox = new PhotoSwipeLightbox({
       gallery: '#gallery--getting-started',
       children: 'a',
-      pswpModule: () => import('/js/photoswipe.esm.min.js')
+      pswpModule: () => import('js/photoswipe.esm.min.js')
     });
     lightbox.init();
     </script>
