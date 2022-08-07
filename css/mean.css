@@ -1014,7 +1014,7 @@ h6 {
   display: flex;
   align-items: center;
   transform: translate(-600px, 0px);
-  opacity: ;
+  opacity: 0;
   transition: all 0.8s ease 0s;
 }
 .footer__navbar--menu._active {
