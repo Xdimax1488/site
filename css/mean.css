@@ -42,7 +42,7 @@ h6 {
 
 .header__inner {
   background-image: url(../image/F2488E76-7349-456E-B1C0-953CD0B40860.jpeg);
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-repeat: no-repeat;
   height: 100%;
   background-size: cover;
