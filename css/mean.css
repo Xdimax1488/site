@@ -47,7 +47,7 @@ h6 {
   height: 100%;
   background-size: cover;
   background-position: center center;
-  /* position: relative; */
+  position: relative;
 }
 
 .header__content {
@@ -538,7 +538,7 @@ h6 {
   height: 100%;
   position: relative;
   background-image: url(../image/back_services.jpeg);
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   height: 100%;
   background-size: cover;
@@ -694,7 +694,7 @@ h6 {
 
 .price__inner {
   background-image: url(../image/back_services.jpeg);
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   height: 100%;
   background-size: cover;
