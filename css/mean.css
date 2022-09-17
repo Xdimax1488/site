@@ -42,7 +42,7 @@ h6 {
 
 .header__inner {
   background-image: url(../image/F2488E76-7349-456E-B1C0-953CD0B40860.jpeg);
-  background-attachment: scroll;
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   height: 100%;
   background-size: cover;
@@ -386,7 +386,7 @@ h6 {
   padding-top: 100px;
   background-color: #a0418584;
   height: 100%;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   padding-bottom: 100px;
 }
 
@@ -533,23 +533,33 @@ h6 {
   .aboutus__pic {
     padding: 1.2rem;
   }
+  .block__header::after {
+    left: 43%;
+  }
+}
+@media screen and (max-width: 400px) {
+  
+  .block__header::after {
+    left: 40%;
+  }
 }
 
 .services {
   height: 100%;
   position: relative;
+  
+}
+
+.services__inner {
   background-image: url(../image/back_services.jpeg);
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
   height: 100%;
+  width:100%;
   background-size: cover;
   background-position: center center;
   padding-top: 100px;
   padding-bottom: 100px;
-}
-
-.services__inner {
- 
 }
 
 .services__content {
@@ -638,7 +648,7 @@ h6 {
   padding-bottom: 100px;
   background-color: #a0418584;
   height: 100%;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .gallery__content {
@@ -866,12 +876,12 @@ h6 {
 }
 
 .anim {
-  transform: translate(220px, 0px);
+  /* transform: translate(220px, 0px); */
   opacity: 0;
 }
 
 .booksy._active {
-  transform: translate(0px, 0px);
+  /* transform: translate(0px, 0px); */
   opacity: 1;
   transition: all 0.8s ease 0.4s;
 }
@@ -919,7 +929,7 @@ h6 {
   padding-top: 100px;
   background-color: #a0418584;
   height: 100%;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   padding-bottom: 100px;
 }
 
