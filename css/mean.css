@@ -537,7 +537,7 @@ h6 {
     left: 43%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   
   .block__header::after {
     left: 40%;
@@ -881,7 +881,7 @@ h6 {
 }
 
 .booksy._active {
-  /* transform: translate(0px, 0px); */
+  transform: translate(0px, 0px);
   opacity: 1;
   transition: all 0.8s ease 0.4s;
 }
