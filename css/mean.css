@@ -42,19 +42,19 @@ h6 {
 
 .header__inner {
   background-image: url(../image/F2488E76-7349-456E-B1C0-953CD0B40860.jpeg);
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-repeat: no-repeat;
   height: 100%;
   background-size: cover;
   background-position: center center;
-  position: relative;
+  
 }
 
 .header__content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
+  position: relative;
   top: 60%;
   left: 50%;
   margin-right: -50%;
